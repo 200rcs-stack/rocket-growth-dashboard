@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Rocket Desk · 쿠팡윙 자료 수집기",
+  "version": "0.3.5",
+  "description": "로컬 대시보드의 요청으로 쿠팡윙과 쿠팡 광고센터 화면을 읽고 확인된 엑셀 다운로드를 요청합니다.",
+  "permissions": ["scripting", "storage", "alarms", "downloads"],
+  "host_permissions": ["https://wing.coupang.com/*", "https://advertising.coupang.com/*", "http://127.0.0.1:8765/*"],
+  "background": {"service_worker": "worker.js"},
+  "action": {"default_popup": "popup.html", "default_title": "Rocket Desk 연결"}
+}

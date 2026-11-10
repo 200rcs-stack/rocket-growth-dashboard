@@ -1,0 +1,7 @@
+streamlit>=1.42,<2
+pandas>=2.2,<4
+openpyxl>=3.1,<4
+plotly>=6,<8
+requests>=2.32,<3
+keyring>=25,<27
+pytest>=8,<10
